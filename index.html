@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="icon" href="/public/img/PNG.png">
+    <title>Minas El Rosal</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/" class="enlace">
+                <img src="/public/img/log.png" alt="logo" class="header-logo">
+            </a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img class="check-img" src="/public/img/menu.png" alt="menu">
+            </label>
+            <ul class="navbar-list">
+                <li class="navbar-list_item"><a class="navbar-list_item-link" href="/">Inicio</a></li>
+                <li class="navbar-list_item"><a class="navbar-list_item-link" href="/productos">Productos</a></li>
+                <li class="navbar-list_item"><a class="navbar-list_item-link" href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" 
+                    name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <img class="slide-item_img" src="/public/img/1.jpg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" 
+                    name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img class="slide-item_img" src="/public/img/2.jpg">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" 
+                    name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img class="slide-item_img" src="/public/img/3.jpg">
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="section-video">
+        <video class="video" loop="loop" preload="auto" autoplay muted playsinline>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.mp4" type="video/ogg">
+        </video>
+    </div>
+    <section class="section-item">
+        <div class="section-item_info">
+            <h1 class="section-item_title">productos y servicios</h1>
+            <a class="section-item_button" href="/productos">ver más</a>
+        </div>
+        <div class="section-item_imgs">
+            <div class="section-item-description">
+                <img class="section-item_img" src="/public/img/produc1.png" alt="producto">
+                <p class="section-item_text">Explotación de Minas y Carreteras</p>
+            </div>
+            <div class="section-item-description">
+                <img class="section-item_img" src="/public/img/produc2.png" alt="producto">
+                <p class="section-item_text">Transporte Monitoreado</p>
+            </div>
+            <div class="section-item-description">
+                <img class="section-item_img" src="/public/img/produc3.png" alt="producto">
+                <p class="section-item_text">Venta de Carbón Antracita</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-item">
+        <div class="section-item_info">
+            <h1 class="section-item_title">nuestros clientes</h1>
+        </div>
+        <div class="slider-clients">
+            <div class="slide-container">
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/casagrande.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/pacasmayo.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/peruroyal.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/sesuvega.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/yura.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/tino.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/trupal.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/uri.png" alt="">
+                </div>
+    
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/casagrande.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/pacasmayo.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/peruroyal.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/sesuvega.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/yura.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/tino.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/trupal.png" alt="">
+                </div>
+                <div class="slide-container_item">
+                    <img class="slide-container_img" src="/public/img/uri.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-item">
+        <div class="section-item_info">
+            <h1 class="section-item_title">ubícanos</h1>
+        </div>
+        <div class="section-item_container">
+            <div class="gmap_canvas">
+                <iframe width="100%" height="400" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d354.9021514535123!2d-77.00581705201367!3d-12.115377261764904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCal.%20Albert%20Einstein%20Mza.%20N%20lote%2018%20Dpto.%202%20Urb.%20La%20Calera%20Lima%20-%20Surquillo!5e0!3m2!1ses-419!2spe!4v1690225081588!5m2!1ses-419!2spe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+    </section>
+    <div class="section-contact">
+        <h1 class="section-contact_title">comunicate con nosotros</h1>
+        <a class="section-contact_button" href="/contacto">contáctanos</a>
+    </div>
+    <a href="https://wa.me/51991412493" target="_blank" class="btn-wpp" aria-label="Comunicate por WhatsApp" style="margin-bottom: 65px;">
+        <img class="btn-wpp_img" src="./public/img/wpp.png" alt="whatsapp">
+    </a>
+    <footer class="footer">
+        <div class="footer-container">
+            <img class="footer-logo" src="/public/img/logon.png" alt="logo">
+            <div class="footer-network">
+                <div class="footer-network_item">
+                    <img class="footer-network_img" src="/public/img/marcador-de-posicion.png" alt="whatsapp">
+                    <span class="footer-network_link">Cal. Albert Einstein Mza. N lote 18 Dpto. 2 Urb. La Calera</span>
+                    <span class="footer-network_link">Lima - Surquillo</span>
+                </div>
+                <div class="footer-network_item">
+                    <img class="footer-network_img" src="/public/img/gmail.png" alt="whatsapp">
+                    <span class="footer-network_link">c.minaselrosal@gmail.com</span>
+                </div>
+                <div class="footer-network_item">
+                    <img class="footer-network_img" src="/public/img/telefono-fijo.png" alt="whatsapp">
+                    <span class="footer-network_link">044 - 776532</span>
+                </div>
+                <div class="footer-network_item">
+                    <img class="footer-network_img" src="/public/img/whatsapp.png" alt="whatsapp">
+                    <span class="footer-network_link">991412493</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

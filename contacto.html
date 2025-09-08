@@ -1,0 +1,73 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="icon" href="/public/img/PNG.png">
+    <title>Minas El Rosal</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/" class="enlace">
+                <img src="/public/img/log.png" alt="logo" class="header-logo">
+            </a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img class="check-img" src="/public/img/menu.png" alt="menu">
+            </label>
+            <ul class="navbar-list">
+                <li class="navbar-list_item"><a class="navbar-list_item-link" href="/">Inicio</a></li>
+                <li class="navbar-list_item"><a class="navbar-list_item-link" href="/productos">Productos</a></li>
+                <li class="navbar-list_item"><a class="navbar-list_item-link" href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section-form">
+        <div class="section-form_1">
+            <h2 class="section-products_title" style="color: #fff;">información</h2>
+            <div class="section-form_info">
+                <p class="section-form_info_title">Dirección</p>
+                <p class="section-form_info_text">Cal. Albert Einstein Mza. N lote 18 Dpto. 2 Urb. La Calera</p>
+                <p class="section-form_info_text">Lima - Surquillo</p>
+            </div>
+            <div class="section-form_info">
+                <p class="section-form_info_title">Teléfonos</p>
+                <p class="section-form_info_text">51 987345213</p>
+                <p class="section-form_info_text">044 - 776532</p>
+            </div>
+            <div class="section-form_info">
+                <p class="section-form_info_title">Correo</p>
+                <p class="section-form_info_text">c.minaselrosal@gmail.com</p>
+            </div>
+        </div>
+        <a href="https://wa.me/51991412493" target="_blank" class="btn-wpp" aria-label="Comunicate por WhatsApp" style="margin-bottom: 65px;">
+            <img class="btn-wpp_img" src="./public/img/wpp.png" alt="whatsapp">
+        </a>
+        <div class="section-form_2">
+            <h2 class="section-products_title">contacto</h2>
+            <form class="" action="https://formsubmit.co/sergiosalinas835@gmail.com" method="POST">
+                <div class="form-container">
+                    <div class="form-container_input">
+                        <input class="form-input" type="text" name="Nombres y Apellidos" id="name" placeholder="Nombres y Apellidos">
+
+                        <input class="form-input" type="tel" name="Teléfono" id="phone" placeholder="Teléfono">
+                    </div>
+
+                    <div class="form-container_input">
+                        <input class="form-input" type="email" name="Email" id="email" placeholder="Email">
+
+                        <input class="form-input" type="city" name="Cuidad" id="city" placeholder="Ciudad">
+                    </div>
+
+                    <textarea class="form-textarea" name="Mensaje" id="message" cols="80" rows="5" placeholder="Mensaje"></textarea>
+
+                    <input class="section-item_button" type="submit" value="Enviar" >
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                    <input type="hidden" name="_captcha" value="false">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
