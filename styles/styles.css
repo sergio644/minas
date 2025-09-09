@@ -469,7 +469,7 @@ p {
     text-align: center;
     align-items: center;
     align-content: center;
-    background-image: url(/assets/contac.png);
+    background-image: url(../assets/contac.png);
 }
 
 .section-contact_title {
